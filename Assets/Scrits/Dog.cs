@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //INHERITANCE
-public class Cat : Animal
+public class Dog : Animal
 {
     protected override void Talk()
     {
-        Debug.Log("The Cat says " + Name);
+        Debug.Log("The Dog says " + Name);
     }
+}
 }

@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour
 {
-    [SerializeField]protected string Name ;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] protected string Name ;
+    
+    protected virtual void Talk()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("The Animal says the Name");
     }
 }
