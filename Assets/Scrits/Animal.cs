@@ -19,4 +19,14 @@ public class Animal : MonoBehaviour
             Name = name;
         }
     }
+
+    //Abstraction
+    protected void Walk()
+    {
+        transform.Translate(Vector3.forward);
+    }
+    protected void Jump()
+    {
+        transform.Translate(Vector3.up);
+    }
 }
