@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//INHERITANCE
-public class Cat : Animal
+public class Dog : Animal
 {
     //Polymorphism
     protected override void Talk()
     {
-        Debug.Log("The Cat says " + Name);
+        Debug.Log("The Dog says " + Name);
     }
 }

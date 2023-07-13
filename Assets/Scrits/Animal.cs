@@ -5,15 +5,9 @@ using UnityEngine;
 public class Animal : MonoBehaviour
 {
     [SerializeField]protected string Name ;
-    // Start is called before the first frame update
-    void Start()
+    //Polymorphism
+    protected virtual void Talk()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("The Animal says " + Name);
     }
 }
