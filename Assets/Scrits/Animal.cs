@@ -10,4 +10,13 @@ public class Animal : MonoBehaviour
     {
         Debug.Log("The Animal says " + Name);
     }
+
+    //Encapsulation
+    public void SetName(string name)
+    {
+        if (name != null && name.Length <=5)
+        {
+            Name = name;
+        }
+    }
 }
